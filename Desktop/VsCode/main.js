@@ -1,10 +1,10 @@
+// for using the code 
+// follow these steps
 // npm init -y
 // npm install electron --save-dev
-//create main.js
 // go to package.json =>
 // "main": main.js
 // scripts "start":"electron ."
-// const => create a constant variable
 const electron = require("electron");
 const app = electron.app;
 function createWindow() {
